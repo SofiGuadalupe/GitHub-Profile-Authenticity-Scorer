@@ -1,0 +1,6 @@
+PyGithub
+requests
+numpy
+pandas
+rapidfuzz
+tqdm

@@ -1,0 +1,22 @@
+{
+  "user": "example",
+  "score": 72,
+  "features": {
+    "forks_ratio": 0.2,
+    "original_repos": 8,
+    "msg_uniqueness": 0.65,
+    "commit_burst_index": 0.35,
+    "heatmap_entropy": 0.62,
+    "stars_spike_z": 1.1,
+    "lang_diversity": 0.33,
+    "collab_ratio": 0.18,
+    "commit_count_sampled": 340,
+    "repo_count_sampled": 18,
+    "unique_languages": 5
+  },
+  "explanations": [
+    "-10 Very low collaboration activity (issues/PR/reviews)",
+    "-10 Very low language diversity",
+    "-8 Example minor deductions"
+  ]
+}

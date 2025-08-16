@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gpas"
+version = "0.1.0"
+description = "GitHub Profile Authenticity Scorer"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "GPAS Maintainers"}]
+requires-python = ">=3.9"
+dependencies = [
+    "PyGithub",
+    "requests",
+    "numpy",
+    "pandas",
+    "rapidfuzz",
+    "tqdm",
+]
+
+[project.scripts]
+gpas = "gpas.cli:main"
